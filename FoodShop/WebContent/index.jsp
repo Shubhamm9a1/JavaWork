@@ -96,7 +96,7 @@
                                         <div class="login-space">
                                             <div class="login">
                                                 <!--Login request goes to core.php file-->
-                                                <form action="" method="POST">
+                                                <form action="login" method="POST">
                                                     <div class="group"> <label for="user" class="label">Email</label> <input id="user" type="email" class="input" placeholder="Enter your Email" name="dlemail"> </div>
                                                     <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password" name="dlpass"> </div>
                                                     <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
@@ -106,7 +106,7 @@
                                                 <div class="foot"> <a href="#">Forgot Password?</a> </div>
                                             </div>
                                             <div class="sign-up-form">
-                                                <form action="" method="POST">
+                                                <form action="Signup" method="POST">
                                                     <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username" name="drname"> </div>
                                                     <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address" name="dremail"> </div>
                                                     <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" placeholder="Enter your password" name="drpass"> </div>
@@ -171,7 +171,7 @@
                </div>
                <div class="row justify-content-center">             
                     <div class="col-auto">
-                        <p>© Copyright 2020 XYZ</p>
+                        <p>Â© Copyright 2020 XYZ</p>
                     </div>
                </div>
             </div>
